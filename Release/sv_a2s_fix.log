@@ -1,0 +1,29 @@
+﻿Build started 19.05.2018 4:49:57.
+     1>Project "D:\lua502\lua\sv_a2s_fix\sv_a2s_fix.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр построения добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+     1>InitializeBuildStatus:
+         Creating "Release\sv_a2s_fix.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\source2006\public\dlls /ID:\source2006\dlls\hl2_dll /ID:\source2006\game_shared\hl2 /ID:\source2006\game_shared\hl2mp /ID:\source2006\game_shared /ID:\source2006\dlls /ID:\source2006\public\tier1 /ID:\source2006\public\tier0 /ID:\source2006\public /ID:\source2006\common /ID:\lua502\lua\lua502_sdk /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1140): warning C4005: ARRAYSIZE: изменение макроопределения
+                 d:\source2006\public\tier0\commonmacros.h(35): см. предыдущее определение "ARRAYSIZE"
+     1>main.cpp(156): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>main.cpp(197): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>main.cpp(198): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\GMod9_Server\gmod9\lua\bin\sv_a2s_fix.dll" /NOLOGO /LIBPATH:D:\source2006\lib\public /LIBPATH:D:\lua502\lua\Release lua502_sdk.lib vstdlib.lib tier0.lib tier1.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST /ManifestFile:"Release\sv_a2s_fix.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\GMod9_Server\gmod9\lua\bin\sv_a2s_fix.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\GMod9_Server\gmod9\lua\bin\sv_a2s_fix.lib" /MACHINE:X86 /DLL Release\main.obj
+            Создается библиотека ..\..\..\GMod9_Server\gmod9\lua\bin\sv_a2s_fix.lib и объект ..\..\..\GMod9_Server\gmod9\lua\bin\sv_a2s_fix.exp
+         Создание кода
+         Создание кода завершено
+         sv_a2s_fix.vcxproj -> D:\lua502\lua\sv_a2s_fix\..\..\..\GMod9_Server\gmod9\lua\bin\sv_a2s_fix.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\GMod9_Server\gmod9\lua\bin\sv_a2s_fix.dll;#2" /manifest Release\sv_a2s_fix.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\sv_a2s_fix.unsuccessfulbuild".
+         Touching "Release\sv_a2s_fix.lastbuildstate".
+     1>Done Building Project "D:\lua502\lua\sv_a2s_fix\sv_a2s_fix.vcxproj" (build target(s)).
+
+Построение успешно завершено.
+
+Time Elapsed 00:00:02.21
