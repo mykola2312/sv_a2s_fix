@@ -1,5 +1,5 @@
 # sv_a2s_fix
-## It's a plugin for GMod 9 Lua502 Extensions - https://github.com/nikolaytihonov/lua502
+## It's a plugin for GMod 9 Lua502 Extensions - https://github.com/mykola2312/lua502
 
 Yesterday, Valve has broke old master servers, so GMod 9 players can't see other servers with sv_master_legacy_mode 1, 
 but sv_master_legacy_mode 0 is broken too. The bug happends when server with sv_master_legacy_mode 0 sends A2S_INFO to
